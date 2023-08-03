@@ -10,7 +10,7 @@ const Certificate = () => {
     <div className="certificatebg">
         <Container>
         <div className="larger">
-                    <h1>Certificate</h1>
+                    <h1>My Certifications</h1>
                 </div>
             <Grid container>
                 

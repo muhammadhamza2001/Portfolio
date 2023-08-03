@@ -1,0 +1,79 @@
+.contactbg{
+    background-color: black;
+    padding: 20px 0;
+    padding-bottom: 30px;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+input{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    width: 90%;
+    margin-bottom: 20px !important;
+}
+textarea{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    margin-bottom: 20px !important;
+    height: 100px;
+    padding: 0 10px;
+}
+.formouter{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px 0;
+
+}
+.formbtn button{
+    background-color: transparent;
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.formbtn button:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.submitalert{
+    color: green;
+    font-size: 18px;
+    padding: 20px 30px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px)  {
+
+    .contactbg{
+        background-color: black;
+        padding: 20px 0;
+    }
+    input{
+        
+        width: 90%;
+       
+    }
+    textarea{
+    
+        width: 90%;
+    }
+    .heading{
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+}

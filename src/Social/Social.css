@@ -1,0 +1,41 @@
+/* SocialWidget.css */
+.social-widget {
+    position: fixed;
+    left: 0;
+    top: 50%; /* Adjust this value to vertically center the widget */
+    transform: translateY(-50%);
+    width: 50px; /* Adjust the width to fit your social media icons */
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    z-index: 999; /* Ensure the widget stays above other elements */
+  }
+  
+  .social-widget a {
+    display: block;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 30px;
+  }
+  .social-widget a:hover{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+  }
+  .social-widget a {
+    display: block;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 30px;
+  }
+  
+  /* Add more styles as needed */
+  
+  @media only screen and (max-width: 576px)  {
+    .social-widget {
+      display: none;
+      
+    }
+
+  }

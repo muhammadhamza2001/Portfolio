@@ -1,0 +1,90 @@
+.typing{
+    text-align: center;
+    padding: 150px 0;
+  
+}
+.herobg{
+    background-color: black;
+}
+.myname h1{
+    color: white;
+    font-size: 60px;
+    
+}
+.resume button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.resume{
+   padding-top: 30px;
+    
+}
+.resume button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.resume button:hover{
+    background: white;
+    border: 2px solid white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.iconn{
+    color: grey;
+    font-size: 30px;
+    
+    
+}
+.iconn:hover{
+    color: white;
+    font-size: 30px;
+    
+    
+}
+.socialaccount a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.socialaccount{
+    display: none;
+    padding: 20px 5px;
+}
+
+
+@media only screen and (max-width:768px)  {
+    .typing{
+        text-align: center;
+        padding: 100px 0;
+    }
+    .write{
+        font-size: 24px !important;
+    }
+    .myname h1{
+        color: white;
+        font-size: 40px;
+        
+    }
+}
+@media only screen and (max-width:576px)  {
+    .socialaccount{
+        display: block;
+        
+    }
+    
+}

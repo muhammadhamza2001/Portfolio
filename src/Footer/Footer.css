@@ -1,0 +1,14 @@
+/* Footer.css */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    border-top: 2px solid grey;
+  }
+  .brand{
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+  }

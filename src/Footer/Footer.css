@@ -1,14 +1,35 @@
 /* Footer.css */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.outer-container {
+  flex: 1; /* This will push the footer to the bottom of the page */
+}
+
 .footer {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    position: relative;
-    border-top: 2px solid grey;
-  }
-  .brand{
-    text-decoration: none;
-    color: white;
-    padding: 0 8px;
-  }
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-top: 2px solid grey;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  padding: 0 8px;
+}
+
+.socialaccount {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.iconn {
+  font-size: 24px;
+}

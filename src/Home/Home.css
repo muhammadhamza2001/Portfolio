@@ -2,7 +2,9 @@
     text-align: center;
     padding: 150px 0;
   
+    
 }
+
 .herobg{
     background-color: black;
 }
@@ -63,14 +65,17 @@
 }
 .socialaccount{
     display: none;
-    padding: 20px 5px;
+    padding: 10px 5px;
 }
-
+.herobg{
+    min-height: 100vh !important;
+  }
 
 @media only screen and (max-width:768px)  {
     .typing{
         text-align: center;
-        padding: 100px 0;
+       height: 100vh !important;
+       padding: 150px 0 !important;
     }
     .write{
         font-size: 24px !important;

@@ -1,15 +1,18 @@
 .meta img{
     width: 60%;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     
 }
+
+
 .meta{
     text-align: center;
 }
 .certificatebg{
     background-color: black;
     padding: 30px 0;
+    min-height: 100vh;
 }
 .textcert{
     color: grey;

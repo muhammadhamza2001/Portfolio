@@ -25,8 +25,9 @@ const Certificate = () => {
                 </Grid>
             </Grid>
         </Container>
-        <Footer/>
+        
         </div>
+        <Footer/>
     </>
   )
 }

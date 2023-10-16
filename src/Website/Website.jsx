@@ -27,10 +27,10 @@ const Website = () => {
                 </Grid>
                 <Grid item xs={12} md={12}>
                 <div className="visit">
-                        <a href="https://musicologyh.netlify.app/" target='./'><span>Click here to visit</span><BiLinkExternal/></a>
+                        <a href="https://car-ten-mu.vercel.app/" target='./'><span>Click here to visit</span><BiLinkExternal/></a>
                     </div>
                 <div className="website">
-                    <iframe src="https://musicologyh.netlify.app/" frameborder="0"></iframe>
+                    <iframe src="https://car-ten-mu.vercel.app/" frameborder="0"></iframe>
                     </div>
                 </Grid>
                 
